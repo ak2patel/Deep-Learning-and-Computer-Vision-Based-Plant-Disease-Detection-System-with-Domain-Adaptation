@@ -1,0 +1,40 @@
+// Prisma Schema for AgriVision Backend
+// Database: PostgreSQL
+// ORM: prisma-client-py (async)
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider             = "prisma-client-py"
+  interface            = "asyncio"
+  recursive_type_depth = 5
+}
+
+model User {
+  id           String       @id @default(uuid())
+  email        String       @unique
+  name         String
+  passwordHash String       @map("password_hash")
+  createdAt    DateTime     @default(now()) @map("created_at")
+  updatedAt    DateTime     @updatedAt @map("updated_at")
+  predictions  Prediction[]
+
+  @@map("users")
+}
+
+model Prediction {
+  id          String   @id @default(uuid())
+  userId      String   @map("user_id")
+  plantName   String   @map("plant_name")
+  diseaseName String   @map("disease_name")
+  confidence  Float
+  isHealthy   Boolean  @map("is_healthy")
+  imageName   String?  @map("image_name")
+  createdAt   DateTime @default(now()) @map("created_at")
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("predictions")
+}

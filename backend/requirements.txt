@@ -8,3 +8,10 @@ Pillow==10.1.0
 httpx==0.25.1
 python-dotenv==1.0.0
 pydantic==2.5.0
+
+# Database (Prisma ORM)
+prisma==0.13.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
