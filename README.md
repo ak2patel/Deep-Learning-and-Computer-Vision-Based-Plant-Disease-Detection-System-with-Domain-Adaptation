@@ -26,9 +26,16 @@ Instead of using off-the-shelf models like ResNet or EfficientNet, we built a cu
 Laboratory conditions (PlantVillage) fail in the real world due to shadows, dirt, and messy backgrounds. To solve this, we used **Domain Adaptation**.
 - Mapped 27 real-world field classes from the **PlantDoc** dataset to our standard 38 classes.
 - Implemented `mixed_finetune_agrinet.py` to jointly train the base model on both clean lab data and messy field data simultaneously.
-- **Pivotal Result:** Achieved **96.1% Validation Accuracy** in rigorous mixed-domain testing. 
+- **Pivotal Result:** Achieved **96.1% Validation Accuracy** in mixed-domain testing. 
 - *The trained models are located in `ml-training/models/` and are fully tracked.*
 - *The immense 3GB+ image datasets have been appropriately `.gitignore`d to maintain a clean repository.*
+
+### 4. Knowledge-Grounded AI ("Real RAG Engine")
+Instead of generic, hallucination-prone chatbots, we built a fully local Retrieval-Augmented Generation (RAG) engine.
+- **Pipeline:** Parses PDF manuals (`apple.pdf`, `potato.pdf`, `tomato.pdf`, `maize.pdf`), chunks text via `RecursiveCharacterTextSplitter`, and embeds them locally on CPU using `sentence-transformers/all-MiniLM-L6-v2`.
+- **Database:** Stores vectors in a local `FAISS` database for sub-millisecond similarity search.
+- **Generation:** Queries Groq API (`llama-3.1-8b-instant`) for fast, context-grounded synthesis.
+- **Result:** Provides farmers with treatment recommendations verified directly from agricultural literature, refusing to answer if the context does not cover the disease.
 
 ## 🚀 Roadmap (What is Left)
 
@@ -38,21 +45,37 @@ The Machine Learning architecture is officially complete and proven. We are now 
 - **Objective**: Move off local memory to a robust database.
 - **Features**: JWT User Authentication, user profiles (`users` table), and prediction history logging (`predictions` table).
 
-### 2. 📚 Knowledge-Grounded AI ("Real RAG")
-- **Objective**: Upgrade from a generic chatbot to an academic **Retrieval-Augmented Generation** assistant.
-- **Features**: Implement `LangChain` and `FAISS` vector databases to ingest heavy agricultural treatment PDFs. When a disease is detected, the AI will pull verified treatment remedies directly from the manuals.
+### 2. 📚 FastAPI RAG Endpoint Integration
+- **Objective**: Hook the completed RAG engine to Ankit's FastAPI server.
+- **Features**: Expose a POST `/chat` API endpoint that receives queries from the frontend, queries the FAISS index, and returns the grounded answer to the client.
 
 ### 3. ✨ Frontend Redesign (Premium Glassmorphism)
 - **Objective**: Upgrade the UI/UX from a basic tool to a "Major Project"-worthy premium application.
 - **Features**: Interactive, semi-transparent overlays, Framer Motion animations, and Grad-CAM "Heatmap" displays so the farmer sees *why* the AI made its prediction.
 
-## 🛠️ How to Verify the ML Results
+## 🛠️ How to Verify and Run
+
+### 1. Verify ML Results
 You can verify the robust accuracy of the custom model by running the evaluation scripts provided:
 
 ```powershell
-# 1. Generate the official 38-class Confusion Matrix & Classification Report
+# Generate the official 38-class Confusion Matrix & Classification Report
 python ml-training/evaluate_agrinet.py
 
-# 2. View a visual grid testing the model strictly on messy field data (PlantDoc)
+# View a visual grid testing the model strictly on messy field data (PlantDoc)
 python ml-training/test_field_data.py
+```
+
+### 2. Run the RAG Chatbot
+Verify the RAG engine by setting up your environment and running the interface:
+
+```powershell
+# 1. Create a .env file at the root directory and add your Groq API key:
+# GROQ_API_KEY=your_groq_api_key_here
+
+# 2. Ingest the agricultural manuals (pre-built FAISS index is already in rag-engine/faiss_index)
+python rag-engine/ingest.py
+
+# 3. Start the query interface (can run in interactive loop or single-query mode)
+python rag-engine/chat.py "How do I treat Apple Scab?"
 ```

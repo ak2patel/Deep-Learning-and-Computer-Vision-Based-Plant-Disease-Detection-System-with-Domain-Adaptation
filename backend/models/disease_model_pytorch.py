@@ -1,15 +1,79 @@
 """
-PyTorch-based Plant Disease Detection Model
+PyTorch-based Plant Disease Detection Model using AgriNet Architecture
 """
 import torch
 import torch.nn as nn
-from torchvision import transforms, models
+from torchvision import transforms
 from PIL import Image
 import numpy as np
 from typing import Dict
+import os
+
+class AgriBlock(nn.Module):
+    """Inverted Residual Block with Depthwise Separable Convolution"""
+    def __init__(self, in_channels, out_channels, expansion=4, stride=1):
+        super(AgriBlock, self).__init__()
+        self.stride = stride
+        hidden_dim = in_channels * expansion
+        self.use_res_connect = self.stride == 1 and in_channels == out_channels
+
+        self.conv = nn.Sequential(
+            # 1x1 Expansion
+            nn.Conv2d(in_channels, hidden_dim, 1, 1, 0, bias=False),
+            nn.BatchNorm2d(hidden_dim),
+            nn.ReLU6(inplace=True),
+            
+            # 3x3 Depthwise
+            nn.Conv2d(hidden_dim, hidden_dim, 3, stride, 1, groups=hidden_dim, bias=False),
+            nn.BatchNorm2d(hidden_dim),
+            nn.ReLU6(inplace=True),
+            
+            # 1x1 Projection (Linear)
+            nn.Conv2d(hidden_dim, out_channels, 1, 1, 0, bias=False),
+            nn.BatchNorm2d(out_channels),
+        )
+
+    def forward(self, x):
+        if self.use_res_connect:
+            return x + self.conv(x)
+        else:
+            return self.conv(x)
+
+class AgriNet(nn.Module):
+    """Custom Efficient CNN designed for AgriVision"""
+    def __init__(self, num_classes=38):
+        super(AgriNet, self).__init__()
+        
+        # Initial Stem
+        self.stem = nn.Sequential(
+            nn.Conv2d(3, 32, kernel_size=3, stride=2, padding=1, bias=False),
+            nn.BatchNorm2d(32),
+            nn.ReLU6(inplace=True)
+        )
+        
+        # Layers (increasing filters)
+        self.blocks = nn.Sequential(
+            AgriBlock(32, 64, expansion=4, stride=1),
+            AgriBlock(64, 128, expansion=6, stride=2),
+            AgriBlock(128, 256, expansion=6, stride=2),
+            AgriBlock(256, 512, expansion=6, stride=2),
+        )
+        
+        self.gap = nn.AdaptiveAvgPool2d(1)
+        self.classifier = nn.Sequential(
+            nn.Dropout(0.3),
+            nn.Linear(512, num_classes)
+        )
+
+    def forward(self, x):
+        x = self.stem(x)
+        x = self.blocks(x)
+        features = self.gap(x)
+        x = features.view(features.size(0), -1)
+        return self.classifier(x)
 
 class DiseaseModel:
-    """Plant Disease Detection Model using PyTorch"""
+    """Plant Disease Detection Model using PyTorch and AgriNet"""
     
     CLASS_NAMES = [
         'Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy',
@@ -27,10 +91,21 @@ class DiseaseModel:
         'Tomato___healthy'
     ]
     
-    def __init__(self, model_path: str = "../ml-training/models/best_model_pytorch.pth"):
+    def __init__(self, model_path: str = None):
         """Initialize the model"""
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.model_path = model_path
+        
+        # Check environment variable first
+        env_model_path = os.getenv("MODEL_PATH")
+        if env_model_path:
+            self.model_path = env_model_path
+        elif model_path is None:
+            # Resolve relative to this file's location to prevent CWD dependency issues
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+            self.model_path = os.path.normpath(os.path.join(current_dir, "..", "..", "ml-training", "models", "agrinet_mixed_v1.pth"))
+        else:
+            self.model_path = model_path
+            
         self.class_names = self.CLASS_NAMES
         self.model = self._load_model()
         
@@ -44,16 +119,12 @@ class DiseaseModel:
     def _load_model(self):
         """Load the trained PyTorch model"""
         try:
-            # Load checkpoint
-            checkpoint = torch.load(self.model_path, map_location=self.device)
-            
             # Build model architecture
-            model = models.efficientnet_b0(pretrained=False)
-            num_features = model.classifier[1].in_features
-            model.classifier[1] = nn.Linear(num_features, len(self.CLASS_NAMES))
+            model = AgriNet(num_classes=len(self.CLASS_NAMES))
             
-            # Load weights
-            model.load_state_dict(checkpoint['model_state_dict'])
+            # Load weights (using weights_only=True for security and to avoid warnings)
+            state_dict = torch.load(self.model_path, map_location=self.device, weights_only=True)
+            model.load_state_dict(state_dict)
             model = model.to(self.device)
             model.eval()
             

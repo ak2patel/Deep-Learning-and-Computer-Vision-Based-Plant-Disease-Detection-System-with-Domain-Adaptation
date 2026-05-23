@@ -11,9 +11,9 @@ class PerplexityClient:
         self.model = "sonar"
         
         if self.api_key:
-            print(f"✅ Perplexity API key loaded: {self.api_key[:10]}...")
+            print(f"[OK] Perplexity API key loaded: {self.api_key[:10]}...")
         else:
-            print("⚠️  No Perplexity API key found in environment")
+            print("[WARNING] No Perplexity API key found in environment")
     
     async def get_response(
         self,
@@ -66,12 +66,12 @@ class PerplexityClient:
                     data = response.json()
                     return data["choices"][0]["message"]["content"]
                 else:
-                    print(f"❌ Perplexity API error: Status {response.status_code}")
+                    print(f"[ERROR] Perplexity API error: Status {response.status_code}")
                     print(f"Response: {response.text}")
                     return self._get_fallback_response(message, context, language)
         
         except Exception as e:
-            print(f"❌ Perplexity API exception: {type(e).__name__}: {e}")
+            print(f"[ERROR] Perplexity API exception: {type(e).__name__}: {e}")
             import traceback
             traceback.print_exc()
             return self._get_fallback_response(message, context, language)

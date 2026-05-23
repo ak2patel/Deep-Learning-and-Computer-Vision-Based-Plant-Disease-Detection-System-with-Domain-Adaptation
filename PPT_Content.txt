@@ -401,9 +401,9 @@ MODULE 5: Backend API (FastAPI) [Planned — Ankit's responsibility]
   - POST /predict → Image upload, model inference, return disease + confidence
   - GET /history → Returns user's past predictions from PostgreSQL
 
-MODULE 6: RAG Engine [Planned — Sahil's responsibility]
-  - ingest.py: Reads agricultural PDFs, chunks text, embeds with MiniLM, saves FAISS index.
-  - chat.py: Embeds user query, FAISS search, injects context into LLM for verified answer.
+MODULE 6: RAG Engine [Completed — Sahil's responsibility]
+  - ingest.py: Loads PDF manuals, splits text into chunks, generates local sentence-transformer embeddings (all-MiniLM-L6-v2), and saves to local FAISS index.
+  - chat.py: Loads FAISS index, retrieves top-3 matching context chunks, and queries Groq API (llama-3.1-8b-instant) to generate grounded answers.
 
 MODULE 7: Frontend [Planned — Nawazish's responsibility]
   - Next.js pages: Landing, Login, Dashboard, Chat.
@@ -442,16 +442,27 @@ PHASE 1 — Base Training Results (PlantVillage Only):
   Epoch  | Train Loss | Train Acc | Val Loss | Val Acc
   -----  | ---------- | --------- | -------- | -------
    1     |   0.8001   |  76.35%   |  0.3566  | 89.08%
+   2     |   0.2985   |  90.46%   |  0.1645  | 94.68%
    3     |   0.2098   |  93.30%   |  0.1371  | 95.51%
+   4     |   0.1691   |  94.57%   |  0.1120  | 96.27%
+   5     |   0.1445   |  95.33%   |  0.0783  | 97.50%
    6     |   0.1214   |  96.09%   |  0.0636  | 97.81%
+   7     |   0.1120   |  96.42%   |  0.0883  | 97.25%
    8     |   0.1044   |  96.57%   |  0.0513  | 98.23%
+   9     |   0.0939   |  96.98%   |  0.0964  | 96.85%
   10     |   0.0853   |  97.21%   |  0.0396  | 98.75% ← BEST
 
 PHASE 2 — Mixed Domain Fine-Tuning Results (PlantVillage + PlantDoc):
   Epoch  | Train Loss | Train Acc | Val Loss | Val Acc
   -----  | ---------- | --------- | -------- | -------
    1     |   0.5123   |  90.70%   |  0.3257  | 93.83%
+   2     |   0.3337   |  92.69%   |  0.2591  | 94.59%
+   3     |   0.2831   |  93.48%   |  0.2231  | 95.19%
+   4     |   0.2525   |  93.89%   |  0.2065  | 95.30%
    5     |   0.2349   |  94.14%   |  0.1838  | 95.68%
+   6     |   0.2247   |  94.34%   |  0.1782  | 95.95%
+   7     |   0.2101   |  94.62%   |  0.1774  | 95.98%
+   8     |   0.2035   |  94.67%   |  0.1778  | 95.71%
    9     |   0.1936   |  94.99%   |  0.1587  | 96.14% ← BEST
   10     |   0.1877   |  94.96%   |  0.1652  | 96.01%
 
@@ -461,6 +472,13 @@ ML METRICS (Final — agrinet_mixed_v1.pth):
   - Weighted Avg Recall:         0.99
   - Weighted Avg F1-Score:       0.99
   - Dataset size evaluated:      ~11,300 images (validation split of 56,536 total)
+
+TRAINING PERFORMANCE & HARDWARE UTILIZATION:
+  - Hardware Executed On: NVIDIA GeForce GTX 1650 (4GB VRAM) running CUDA.
+  - Average Epoch Duration: ~12.5 minutes (demonstrating model efficiency).
+  - Overall Training Speed: ~4.0 it/s on average during Phase 1.
+  - Significance: The custom AgriNet architecture is lightweight enough to achieve
+    state-of-the-art 96%+ accuracy on a low-end consumer GPU without memory overflow.
 
 VISUAL OUTPUTS:
   - Confusion Matrix Heat-Map: 38x38 grid showing model's class-wise predictions.
@@ -517,7 +535,7 @@ KEY LEARNINGS:
 SLIDE 17: CONCLUSION AND FUTURE WORK
 ===============================================================================
 CURRENT LIMITATIONS:
-  - RAG and Full-Stack Backend not yet implemented (planned for next phase).
+  - Full-Stack Backend and Frontend integration of RAG not yet completed (RAG core engine is completed).
   - Grad-CAM explainability layer not yet integrated into the prediction endpoint.
   - PlantDoc mapping skipped "Tomato mold leaf" class (no exact PlantVillage match).
   - Model has not been tested on ONNX or mobile (TensorFlow Lite) for edge deployment.

@@ -1,0 +1,3690 @@
+{
+  "summary": {
+    "total": 460,
+    "correct": 164,
+    "accuracy": 35.65217391304348,
+    "skipped": 12
+  },
+  "results": [
+    {
+      "filename": "Apple leaf (1).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 35.39,
+      "correct": false
+    },
+    {
+      "filename": "Apple leaf (1).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 35.39,
+      "correct": false
+    },
+    {
+      "filename": "Apple leaf (2).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Tomato___healthy",
+      "confidence": 25.18,
+      "correct": false
+    },
+    {
+      "filename": "Apple leaf (2).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Tomato___healthy",
+      "confidence": 25.18,
+      "correct": false
+    },
+    {
+      "filename": "Apple leaf (3).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 69.61,
+      "correct": true
+    },
+    {
+      "filename": "Apple leaf (3).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 69.61,
+      "correct": true
+    },
+    {
+      "filename": "Apple leaf (4).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 61.54,
+      "correct": false
+    },
+    {
+      "filename": "Apple leaf (4).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 61.54,
+      "correct": false
+    },
+    {
+      "filename": "Apple leaf (5).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 94.01,
+      "correct": true
+    },
+    {
+      "filename": "Apple leaf (5).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 94.01,
+      "correct": true
+    },
+    {
+      "filename": "Apple leaf (6).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 97.21,
+      "correct": true
+    },
+    {
+      "filename": "Apple leaf (6).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 97.21,
+      "correct": true
+    },
+    {
+      "filename": "Apple leaf (7).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 96.74,
+      "correct": true
+    },
+    {
+      "filename": "Apple leaf (7).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 96.74,
+      "correct": true
+    },
+    {
+      "filename": "Apple leaf (8).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 41.87,
+      "correct": false
+    },
+    {
+      "filename": "Apple leaf (8).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 41.87,
+      "correct": false
+    },
+    {
+      "filename": "Apple leaf (9).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 92.34,
+      "correct": false
+    },
+    {
+      "filename": "Apple leaf (9).jpg",
+      "folder": "Apple leaf",
+      "expected": "Apple___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 92.34,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (1).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 25.89,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (1).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 25.89,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (10).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Potato___Early_blight",
+      "confidence": 77.96,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (10).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Potato___Early_blight",
+      "confidence": 77.96,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (2).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Soybean___healthy",
+      "confidence": 44.83,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (2).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Soybean___healthy",
+      "confidence": 44.83,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (3).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 45.16,
+      "correct": true
+    },
+    {
+      "filename": "Apple rust leaf (3).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 45.16,
+      "correct": true
+    },
+    {
+      "filename": "Apple rust leaf (4).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 68.44,
+      "correct": true
+    },
+    {
+      "filename": "Apple rust leaf (4).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 68.44,
+      "correct": true
+    },
+    {
+      "filename": "Apple rust leaf (5).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 40.63,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (5).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 40.63,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (6).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 99.17,
+      "correct": true
+    },
+    {
+      "filename": "Apple rust leaf (6).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 99.17,
+      "correct": true
+    },
+    {
+      "filename": "Apple rust leaf (7).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 38.91,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (7).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 38.91,
+      "correct": false
+    },
+    {
+      "filename": "Apple rust leaf (8).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 99.86,
+      "correct": true
+    },
+    {
+      "filename": "Apple rust leaf (8).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 99.86,
+      "correct": true
+    },
+    {
+      "filename": "Apple rust leaf (9).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 84.92,
+      "correct": true
+    },
+    {
+      "filename": "Apple rust leaf (9).jpg",
+      "folder": "Apple rust leaf",
+      "expected": "Apple___Cedar_apple_rust",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 84.92,
+      "correct": true
+    },
+    {
+      "filename": "Apple Scab Leaf (1).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 48.42,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (1).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 48.42,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (10).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Strawberry___Leaf_scorch",
+      "confidence": 97.22,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (10).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Strawberry___Leaf_scorch",
+      "confidence": 97.22,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (2).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Apple___Apple_scab",
+      "confidence": 99.99,
+      "correct": true
+    },
+    {
+      "filename": "Apple Scab Leaf (2).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Apple___Apple_scab",
+      "confidence": 99.99,
+      "correct": true
+    },
+    {
+      "filename": "Apple Scab Leaf (3).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Potato___Early_blight",
+      "confidence": 92.52,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (3).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Potato___Early_blight",
+      "confidence": 92.52,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (4).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Blueberry___healthy",
+      "confidence": 32.46,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (4).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Blueberry___healthy",
+      "confidence": 32.46,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (5).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 28.74,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (5).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 28.74,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (6).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 24.38,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (6).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 24.38,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (7).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Soybean___healthy",
+      "confidence": 54.99,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (7).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Soybean___healthy",
+      "confidence": 54.99,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (8).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Apple___Apple_scab",
+      "confidence": 89.93,
+      "correct": true
+    },
+    {
+      "filename": "Apple Scab Leaf (8).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Apple___Apple_scab",
+      "confidence": 89.93,
+      "correct": true
+    },
+    {
+      "filename": "Apple Scab Leaf (9).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Strawberry___Leaf_scorch",
+      "confidence": 61.42,
+      "correct": false
+    },
+    {
+      "filename": "Apple Scab Leaf (9).jpg",
+      "folder": "Apple Scab Leaf",
+      "expected": "Apple___Apple_scab",
+      "predicted": "Strawberry___Leaf_scorch",
+      "confidence": 61.42,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf (1).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 76.93,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf (1).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 76.93,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf (2).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 63.27,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf (2).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 63.27,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf (3).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 86.06,
+      "correct": true
+    },
+    {
+      "filename": "Bell_pepper leaf (3).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 86.06,
+      "correct": true
+    },
+    {
+      "filename": "Bell_pepper leaf (4).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 25.97,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf (4).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 25.97,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf (5).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 44.28,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf (5).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 44.28,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf (6).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 93.53,
+      "correct": true
+    },
+    {
+      "filename": "Bell_pepper leaf (6).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 93.53,
+      "correct": true
+    },
+    {
+      "filename": "Bell_pepper leaf (7).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 50.8,
+      "correct": true
+    },
+    {
+      "filename": "Bell_pepper leaf (7).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 50.8,
+      "correct": true
+    },
+    {
+      "filename": "Bell_pepper leaf (8).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 53.87,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf (8).jpg",
+      "folder": "Bell_pepper leaf",
+      "expected": "Pepper,_bell___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 53.87,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (1).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Apple___Apple_scab",
+      "confidence": 52.2,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (1).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Apple___Apple_scab",
+      "confidence": 52.2,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (2).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 31.58,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (2).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 31.58,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (3).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 45.76,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (3).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 45.76,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (4).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 91.1,
+      "correct": true
+    },
+    {
+      "filename": "Bell_pepper leaf spot (4).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 91.1,
+      "correct": true
+    },
+    {
+      "filename": "Bell_pepper leaf spot (5).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 74.99,
+      "correct": true
+    },
+    {
+      "filename": "Bell_pepper leaf spot (5).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 74.99,
+      "correct": true
+    },
+    {
+      "filename": "Bell_pepper leaf spot (6).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Potato___Early_blight",
+      "confidence": 60.5,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (6).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Potato___Early_blight",
+      "confidence": 60.5,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (7).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 55.32,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (7).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 55.32,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (8).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Grape___Black_rot",
+      "confidence": 67.63,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (8).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Grape___Black_rot",
+      "confidence": 67.63,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (9).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 41.61,
+      "correct": false
+    },
+    {
+      "filename": "Bell_pepper leaf spot (9).jpg",
+      "folder": "Bell_pepper leaf spot",
+      "expected": "Pepper,_bell___Bacterial_spot",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 41.61,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (1).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 51.14,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (1).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 51.14,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (10).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 39.03,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (10).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 39.03,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (11).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Blueberry___healthy",
+      "confidence": 79.18,
+      "correct": true
+    },
+    {
+      "filename": "Blueberry leaf (11).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Blueberry___healthy",
+      "confidence": 79.18,
+      "correct": true
+    },
+    {
+      "filename": "Blueberry leaf (2).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 55.81,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (2).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 55.81,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (3).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 46.21,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (3).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 46.21,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (4).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 35.87,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (4).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 35.87,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (5).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Blueberry___healthy",
+      "confidence": 79.58,
+      "correct": true
+    },
+    {
+      "filename": "Blueberry leaf (5).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Blueberry___healthy",
+      "confidence": 79.58,
+      "correct": true
+    },
+    {
+      "filename": "Blueberry leaf (6).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 83.0,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (6).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 83.0,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (7).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 44.84,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (7).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 44.84,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (8).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 99.49,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (8).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 99.49,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (9).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 84.65,
+      "correct": false
+    },
+    {
+      "filename": "Blueberry leaf (9).jpg",
+      "folder": "Blueberry leaf",
+      "expected": "Blueberry___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 84.65,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (1).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 80.38,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (1).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 80.38,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (10).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 45.97,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (10).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 45.97,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (2).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 83.91,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (2).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 83.91,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (3).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 72.32,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (3).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 72.32,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (4).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 90.9,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (4).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 90.9,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (5).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 67.19,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (5).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 67.19,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (6).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 44.9,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (6).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 44.9,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (7).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 45.46,
+      "correct": true
+    },
+    {
+      "filename": "Cherry leaf (7).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 45.46,
+      "correct": true
+    },
+    {
+      "filename": "Cherry leaf (8).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Tomato___healthy",
+      "confidence": 46.82,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (8).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Tomato___healthy",
+      "confidence": 46.82,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (9).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 30.52,
+      "correct": false
+    },
+    {
+      "filename": "Cherry leaf (9).jpg",
+      "folder": "Cherry leaf",
+      "expected": "Cherry_(including_sour)___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 30.52,
+      "correct": false
+    },
+    {
+      "filename": "Corn Gray leaf spot (1).jpg",
+      "folder": "Corn Gray leaf spot",
+      "expected": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 51.17,
+      "correct": false
+    },
+    {
+      "filename": "Corn Gray leaf spot (1).jpg",
+      "folder": "Corn Gray leaf spot",
+      "expected": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 51.17,
+      "correct": false
+    },
+    {
+      "filename": "Corn Gray leaf spot (2).jpg",
+      "folder": "Corn Gray leaf spot",
+      "expected": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 48.41,
+      "correct": false
+    },
+    {
+      "filename": "Corn Gray leaf spot (2).jpg",
+      "folder": "Corn Gray leaf spot",
+      "expected": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 48.41,
+      "correct": false
+    },
+    {
+      "filename": "Corn Gray leaf spot (3).jpg",
+      "folder": "Corn Gray leaf spot",
+      "expected": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 82.65,
+      "correct": true
+    },
+    {
+      "filename": "Corn Gray leaf spot (3).jpg",
+      "folder": "Corn Gray leaf spot",
+      "expected": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 82.65,
+      "correct": true
+    },
+    {
+      "filename": "Corn Gray leaf spot (4).jpg",
+      "folder": "Corn Gray leaf spot",
+      "expected": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 89.65,
+      "correct": true
+    },
+    {
+      "filename": "Corn Gray leaf spot (4).jpg",
+      "folder": "Corn Gray leaf spot",
+      "expected": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 89.65,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (1).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 82.65,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (1).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 82.65,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (10).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 93.65,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (10).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 93.65,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (11).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 34.87,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (11).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 34.87,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (12).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 97.12,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (12).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 97.12,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (2).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 83.15,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (2).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 83.15,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (3).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 52.1,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (3).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 52.1,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (4).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 43.35,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (4).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 43.35,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (5).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 98.9,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (5).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 98.9,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (6).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 49.01,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (6).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 49.01,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (7).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 97.42,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (7).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 97.42,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (8).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 90.01,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (8).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 90.01,
+      "correct": true
+    },
+    {
+      "filename": "Corn leaf blight (9).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 63.14,
+      "correct": false
+    },
+    {
+      "filename": "Corn leaf blight (9).jpg",
+      "folder": "Corn leaf blight",
+      "expected": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "confidence": 63.14,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (1).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 62.08,
+      "correct": true
+    },
+    {
+      "filename": "Corn rust leaf (1).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 62.08,
+      "correct": true
+    },
+    {
+      "filename": "Corn rust leaf (10).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 64.22,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (10).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 64.22,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (2).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 59.48,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (2).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 59.48,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (3).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 50.25,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (3).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 50.25,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (4).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 65.06,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (4).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 65.06,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (5).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 75.22,
+      "correct": true
+    },
+    {
+      "filename": "Corn rust leaf (5).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 75.22,
+      "correct": true
+    },
+    {
+      "filename": "Corn rust leaf (6).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 62.5,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (6).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "confidence": 62.5,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (7).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 89.62,
+      "correct": true
+    },
+    {
+      "filename": "Corn rust leaf (7).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 89.62,
+      "correct": true
+    },
+    {
+      "filename": "Corn rust leaf (8).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___healthy",
+      "confidence": 83.24,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (8).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___healthy",
+      "confidence": 83.24,
+      "correct": false
+    },
+    {
+      "filename": "Corn rust leaf (9).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 97.89,
+      "correct": true
+    },
+    {
+      "filename": "Corn rust leaf (9).jpg",
+      "folder": "Corn rust leaf",
+      "expected": "Corn_(maize)___Common_rust_",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 97.89,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf (1).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Grape___healthy",
+      "confidence": 53.11,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf (1).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Grape___healthy",
+      "confidence": 53.11,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf (10).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Grape___healthy",
+      "confidence": 59.02,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf (10).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Grape___healthy",
+      "confidence": 59.02,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf (11).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 40.55,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (11).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 40.55,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (12).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 27.85,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (12).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 27.85,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (2).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 74.34,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (2).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 74.34,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (3).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Grape___healthy",
+      "confidence": 52.15,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf (3).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Grape___healthy",
+      "confidence": 52.15,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf (4).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 89.02,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (4).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 89.02,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (5).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 68.28,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (5).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 68.28,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (6).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 52.24,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (6).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 52.24,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (7).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Grape___healthy",
+      "confidence": 68.8,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf (7).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Grape___healthy",
+      "confidence": 68.8,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf (8).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Tomato___healthy",
+      "confidence": 55.05,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (8).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Tomato___healthy",
+      "confidence": 55.05,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (9).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 78.03,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf (9).jpg",
+      "folder": "grape leaf",
+      "expected": "Grape___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 78.03,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (1).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Grape___Black_rot",
+      "confidence": 29.68,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf black rot (1).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Grape___Black_rot",
+      "confidence": 29.68,
+      "correct": true
+    },
+    {
+      "filename": "grape leaf black rot (2).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Grape___Esca_(Black_Measles)",
+      "confidence": 98.81,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (2).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Grape___Esca_(Black_Measles)",
+      "confidence": 98.81,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (3).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Peach___Bacterial_spot",
+      "confidence": 49.35,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (3).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Peach___Bacterial_spot",
+      "confidence": 49.35,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (4).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 45.31,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (4).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 45.31,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (5).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 64.81,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (5).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 64.81,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (6).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Grape___Esca_(Black_Measles)",
+      "confidence": 81.84,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (6).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Grape___Esca_(Black_Measles)",
+      "confidence": 81.84,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (7).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Strawberry___Leaf_scorch",
+      "confidence": 30.59,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (7).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Strawberry___Leaf_scorch",
+      "confidence": 30.59,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (8).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Grape___healthy",
+      "confidence": 44.02,
+      "correct": false
+    },
+    {
+      "filename": "grape leaf black rot (8).jpg",
+      "folder": "grape leaf black rot",
+      "expected": "Grape___Black_rot",
+      "predicted": "Grape___healthy",
+      "confidence": 44.02,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (1).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Blueberry___healthy",
+      "confidence": 48.27,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (1).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Blueberry___healthy",
+      "confidence": 48.27,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (2).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 82.65,
+      "correct": true
+    },
+    {
+      "filename": "Peach leaf (2).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 82.65,
+      "correct": true
+    },
+    {
+      "filename": "Peach leaf (3).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 66.94,
+      "correct": true
+    },
+    {
+      "filename": "Peach leaf (3).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 66.94,
+      "correct": true
+    },
+    {
+      "filename": "Peach leaf (4).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 46.16,
+      "correct": true
+    },
+    {
+      "filename": "Peach leaf (4).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 46.16,
+      "correct": true
+    },
+    {
+      "filename": "Peach leaf (5).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 77.17,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (5).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 77.17,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (6).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 75.19,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (6).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 75.19,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (7).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 94.74,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (7).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 94.74,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (8).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 73.51,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (8).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 73.51,
+      "correct": false
+    },
+    {
+      "filename": "Peach leaf (9).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 58.82,
+      "correct": true
+    },
+    {
+      "filename": "Peach leaf (9).jpg",
+      "folder": "Peach leaf",
+      "expected": "Peach___healthy",
+      "predicted": "Peach___healthy",
+      "confidence": 58.82,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf early blight (1).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Early_blight",
+      "confidence": 90.43,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf early blight (1).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Early_blight",
+      "confidence": 90.43,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf early blight (2).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Late_blight",
+      "confidence": 51.47,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf early blight (2).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Late_blight",
+      "confidence": 51.47,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf early blight (3).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Early_blight",
+      "confidence": 35.91,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf early blight (3).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Early_blight",
+      "confidence": 35.91,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf early blight (4).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 89.94,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf early blight (4).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 89.94,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf early blight (5).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Early_blight",
+      "confidence": 90.98,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf early blight (5).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Early_blight",
+      "confidence": 90.98,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf early blight (6).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Late_blight",
+      "confidence": 36.62,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf early blight (6).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Late_blight",
+      "confidence": 36.62,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf early blight (7).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Soybean___healthy",
+      "confidence": 93.14,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf early blight (7).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Soybean___healthy",
+      "confidence": 93.14,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf early blight (8).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Early_blight",
+      "confidence": 60.97,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf early blight (8).jpg",
+      "folder": "Potato leaf early blight",
+      "expected": "Potato___Early_blight",
+      "predicted": "Potato___Early_blight",
+      "confidence": 60.97,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf late blight (1).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Potato___Late_blight",
+      "confidence": 77.79,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf late blight (1).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Potato___Late_blight",
+      "confidence": 77.79,
+      "correct": true
+    },
+    {
+      "filename": "Potato leaf late blight (2).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 88.46,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (2).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 88.46,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (3).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 31.77,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (3).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 31.77,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (4).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 72.12,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (4).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 72.12,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (5).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Raspberry___healthy",
+      "confidence": 40.67,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (5).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Raspberry___healthy",
+      "confidence": 40.67,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (6).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Apple___healthy",
+      "confidence": 56.88,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (6).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Apple___healthy",
+      "confidence": 56.88,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (7).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Apple___healthy",
+      "confidence": 86.22,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (7).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Apple___healthy",
+      "confidence": 86.22,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (8).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 94.69,
+      "correct": false
+    },
+    {
+      "filename": "Potato leaf late blight (8).jpg",
+      "folder": "Potato leaf late blight",
+      "expected": "Potato___Late_blight",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 94.69,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (1).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 36.91,
+      "correct": true
+    },
+    {
+      "filename": "Raspberry leaf (1).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 36.91,
+      "correct": true
+    },
+    {
+      "filename": "Raspberry leaf (2).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 73.75,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (2).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 73.75,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (3).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 85.32,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (3).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 85.32,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (4).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 67.33,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (4).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 67.33,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (5).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 54.58,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (5).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 54.58,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (6).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 68.93,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (6).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 68.93,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (7).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 39.6,
+      "correct": false
+    },
+    {
+      "filename": "Raspberry leaf (7).jpg",
+      "folder": "Raspberry leaf",
+      "expected": "Raspberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 39.6,
+      "correct": false
+    },
+    {
+      "filename": "Soyabean leaf (1).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 48.27,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (1).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 48.27,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (2).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 94.13,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (2).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 94.13,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (3).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 29.99,
+      "correct": false
+    },
+    {
+      "filename": "Soyabean leaf (3).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 29.99,
+      "correct": false
+    },
+    {
+      "filename": "Soyabean leaf (4).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 27.2,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (4).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 27.2,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (5).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 34.56,
+      "correct": false
+    },
+    {
+      "filename": "Soyabean leaf (5).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 34.56,
+      "correct": false
+    },
+    {
+      "filename": "Soyabean leaf (6).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 47.43,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (6).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 47.43,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (7).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 57.27,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (7).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 57.27,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (8).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 91.19,
+      "correct": true
+    },
+    {
+      "filename": "Soyabean leaf (8).jpg",
+      "folder": "Soyabean leaf",
+      "expected": "Soybean___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 91.19,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (1).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 88.26,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (1).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 88.26,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (2).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 100.0,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (2).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 100.0,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (3).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 99.97,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (3).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 99.97,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (4).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 97.08,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (4).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 97.08,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (5).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 97.4,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (5).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 97.4,
+      "correct": true
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (6).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 22.78,
+      "correct": false
+    },
+    {
+      "filename": "Squash Powdery mildew leaf (6).jpg",
+      "folder": "Squash Powdery mildew leaf",
+      "expected": "Squash___Powdery_mildew",
+      "predicted": "Pepper,_bell___healthy",
+      "confidence": 22.78,
+      "correct": false
+    },
+    {
+      "filename": "Strawberry leaf (1).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 96.98,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (1).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 96.98,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (2).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 95.42,
+      "correct": false
+    },
+    {
+      "filename": "Strawberry leaf (2).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 95.42,
+      "correct": false
+    },
+    {
+      "filename": "Strawberry leaf (3).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 92.04,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (3).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 92.04,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (4).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 46.25,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (4).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 46.25,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (5).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 86.21,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (5).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 86.21,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (6).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 77.31,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (6).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 77.31,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (7).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 48.33,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (7).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 48.33,
+      "correct": true
+    },
+    {
+      "filename": "Strawberry leaf (8).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 47.46,
+      "correct": false
+    },
+    {
+      "filename": "Strawberry leaf (8).jpg",
+      "folder": "Strawberry leaf",
+      "expected": "Strawberry___healthy",
+      "predicted": "Apple___healthy",
+      "confidence": 47.46,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (1).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 38.1,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (1).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 38.1,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (2).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 46.86,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Early blight leaf (2).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 46.86,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Early blight leaf (3).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 73.82,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Early blight leaf (3).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 73.82,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Early blight leaf (4).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 45.98,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (4).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 45.98,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (5).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 25.64,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (5).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 25.64,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (6).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Apple___Apple_scab",
+      "confidence": 60.26,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (6).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Apple___Apple_scab",
+      "confidence": 60.26,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (7).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 66.37,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (7).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 66.37,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (8).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 54.48,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (8).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 54.48,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Early blight leaf (9).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 92.82,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Early blight leaf (9).jpg",
+      "folder": "Tomato Early blight leaf",
+      "expected": "Tomato___Early_blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 92.82,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf (1).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 89.45,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (1).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 89.45,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (2).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 34.05,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (2).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Raspberry___healthy",
+      "confidence": 34.05,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (3).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Blueberry___healthy",
+      "confidence": 34.14,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (3).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Blueberry___healthy",
+      "confidence": 34.14,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (4).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 92.58,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (4).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Squash___Powdery_mildew",
+      "confidence": 92.58,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (5).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 69.88,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (5).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 69.88,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (6).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 74.42,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (6).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Strawberry___healthy",
+      "confidence": 74.42,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (7).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 83.93,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (7).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 83.93,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (8).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 31.07,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf (8).jpg",
+      "folder": "Tomato leaf",
+      "expected": "Tomato___healthy",
+      "predicted": "Soybean___healthy",
+      "confidence": 31.07,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (1).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Blueberry___healthy",
+      "confidence": 62.32,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (1).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Blueberry___healthy",
+      "confidence": 62.32,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (2).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 37.77,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (2).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Apple___Cedar_apple_rust",
+      "confidence": 37.77,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (3).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 97.21,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (3).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 97.21,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (4).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 35.62,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (4).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Pepper,_bell___Bacterial_spot",
+      "confidence": 35.62,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (5).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 98.43,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (5).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 98.43,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (6).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Potato___healthy",
+      "confidence": 34.85,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (6).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Potato___healthy",
+      "confidence": 34.85,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (7).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 30.26,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (7).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 30.26,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (8).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 72.43,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (8).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 72.43,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (9).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 98.14,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf bacterial spot (9).jpg",
+      "folder": "Tomato leaf bacterial spot",
+      "expected": "Tomato___Bacterial_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 98.14,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (1).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Potato___Late_blight",
+      "confidence": 24.76,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (1).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Potato___Late_blight",
+      "confidence": 24.76,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (10).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 59.03,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf late blight (10).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 59.03,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf late blight (2).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 64.72,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf late blight (2).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 64.72,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf late blight (3).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 88.83,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf late blight (3).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 88.83,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf late blight (4).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Apple___Apple_scab",
+      "confidence": 51.43,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (4).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Apple___Apple_scab",
+      "confidence": 51.43,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (5).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Potato___Early_blight",
+      "confidence": 52.17,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (5).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Potato___Early_blight",
+      "confidence": 52.17,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (6).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Potato___Late_blight",
+      "confidence": 95.54,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (6).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Potato___Late_blight",
+      "confidence": 95.54,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (7).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Tomato_mosaic_virus",
+      "confidence": 81.59,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (7).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Tomato_mosaic_virus",
+      "confidence": 81.59,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (8).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 21.13,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (8).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 21.13,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (9).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 28.5,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf late blight (9).jpg",
+      "folder": "Tomato leaf late blight",
+      "expected": "Tomato___Late_blight",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 28.5,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (1).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Tomato_mosaic_virus",
+      "confidence": 63.78,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (1).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Tomato_mosaic_virus",
+      "confidence": 63.78,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (10).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Leaf_Mold",
+      "confidence": 85.0,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (10).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Leaf_Mold",
+      "confidence": 85.0,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (2).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 92.79,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (2).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Corn_(maize)___Common_rust_",
+      "confidence": 92.79,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (3).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Tomato_mosaic_virus",
+      "confidence": 75.72,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (3).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Tomato_mosaic_virus",
+      "confidence": 75.72,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (4).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 26.22,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (4).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 26.22,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (5).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 65.5,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (5).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 65.5,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (6).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 32.25,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (6).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 32.25,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (7).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Soybean___healthy",
+      "confidence": 53.51,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (7).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Soybean___healthy",
+      "confidence": 53.51,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (8).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "confidence": 74.29,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (8).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "confidence": 74.29,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (9).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 29.86,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf mosaic virus (9).jpg",
+      "folder": "Tomato leaf mosaic virus",
+      "expected": "Tomato___Tomato_mosaic_virus",
+      "predicted": "Tomato___Late_blight",
+      "confidence": 29.86,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf yellow virus (1).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 72.28,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf yellow virus (1).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 72.28,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf yellow virus (2).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 33.87,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf yellow virus (2).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Cherry_(including_sour)___healthy",
+      "confidence": 33.87,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf yellow virus (3).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 48.97,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf yellow virus (3).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 48.97,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf yellow virus (4).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 87.51,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf yellow virus (4).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 87.51,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf yellow virus (5).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 59.2,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf yellow virus (5).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "confidence": 59.2,
+      "correct": true
+    },
+    {
+      "filename": "Tomato leaf yellow virus (6).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Grape___healthy",
+      "confidence": 23.59,
+      "correct": false
+    },
+    {
+      "filename": "Tomato leaf yellow virus (6).jpg",
+      "folder": "Tomato leaf yellow virus",
+      "expected": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Grape___healthy",
+      "confidence": 23.59,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (1).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Potato___Late_blight",
+      "confidence": 81.15,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (1).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Potato___Late_blight",
+      "confidence": 81.15,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (10).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 91.98,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (10).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Early_blight",
+      "confidence": 91.98,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (11).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 98.32,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (11).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 98.32,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (2).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 71.51,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (2).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 71.51,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (3).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Peach___Bacterial_spot",
+      "confidence": 49.95,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (3).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Peach___Bacterial_spot",
+      "confidence": 49.95,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (4).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Potato___Early_blight",
+      "confidence": 39.23,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (4).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Potato___Early_blight",
+      "confidence": 39.23,
+      "correct": false
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (5).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 41.21,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (5).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 41.21,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (6).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 32.34,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (6).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 32.34,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (7).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 54.19,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (7).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 54.19,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (8).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 80.53,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (8).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 80.53,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (9).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 50.08,
+      "correct": true
+    },
+    {
+      "filename": "Tomato Septoria leaf spot (9).jpg",
+      "folder": "Tomato Septoria leaf spot",
+      "expected": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "confidence": 50.08,
+      "correct": true
+    }
+  ]
+}

@@ -210,7 +210,18 @@ PS D:\Dev\AI-Powered-Plant-Disease-Detection-System>
 
 
 
-## 🔮 Part 4: The Path Forward (Real RAG)
-The next major upgrade is moving from a chatbot to a **Retrieval-Augmented Generation (RAG)** system using FAISS and LangChain to provide "Knowledge-Grounded" answers from agricultural manuals.
+## 🔮 Part 4: Real RAG Implementation (May 23, 2026)
+Successfully completed the RAG (Retrieval-Augmented Generation) engine integration for grounded agricultural advice.
+
+### Implementation Details:
+- **PDF Ingestion & Chunking**: Integrated a pipeline to load PDF manuals (Apple, Potato, Tomato, Maize) from `rag-engine/documents/`, splitting text into chunks (1000 characters, 200 overlap) using `RecursiveCharacterTextSplitter`.
+- **Vector Embeddings**: Used `sentence-transformers/all-MiniLM-L6-v2` locally on CPU to generate 384-dimensional dense vectors for 125 document chunks.
+- **Vector Database**: Used `FAISS` to build a local vector index saved under `rag-engine/faiss_index/`.
+- **LLM Synthesis**: Integrated the Groq API utilizing the `llama-3.1-8b-instant` model for high-speed, grounded generation.
+- **Strict Grounding Prompt**: Configured a system prompt that restricts the model from hallucinating or answering from external knowledge, ensuring all advice is grounded strictly in the provided agricultural PDF manuals.
+
+### Verified Behavior:
+- **Safety Grounding**: Querying vague symptoms (e.g., general leaf yellowing) correctly yields a grounded refusal to guess without context.
+- **Accurate Retrieval**: Querying specific conditions (e.g., tomato wilt) successfully retrieves corresponding pages of `tomato.pdf` and extracts symptoms and treatments (Bacterial vs. Fusarium wilt) with no hallucinations.
 
 
