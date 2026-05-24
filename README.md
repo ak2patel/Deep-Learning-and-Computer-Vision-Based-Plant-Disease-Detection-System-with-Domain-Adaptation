@@ -79,3 +79,28 @@ python rag-engine/ingest.py
 # 3. Start the query interface (can run in interactive loop or single-query mode)
 python rag-engine/chat.py "How do I treat Apple Scab?"
 ```
+
+### 3. Setup the Backend Database (PostgreSQL + Prisma)
+The backend uses **PostgreSQL** and **Prisma ORM**. You can set it up either locally using Docker, or by connecting to a free cloud database.
+
+#### Method A: Local Database using Docker
+If you have Docker Desktop installed, spin up the local database using the provided docker-compose file:
+```powershell
+docker-compose up -d db
+```
+
+#### Method B: Cloud Database (Supabase / Render)
+If you do not have Docker, create a free database on a cloud provider like [Supabase](https://supabase.com). Copy your Connection String, open `backend/.env`, and set it:
+```env
+DATABASE_URL=postgresql://postgres:your_password@db.supabase.co:5432/postgres
+```
+
+#### Final Step: Push the Schema
+Whether you used Method A or Method B, you must build the tables before running the API:
+```powershell
+cd backend
+python -m prisma db push
+
+# Start the FastAPI Server
+python run.py
+```
