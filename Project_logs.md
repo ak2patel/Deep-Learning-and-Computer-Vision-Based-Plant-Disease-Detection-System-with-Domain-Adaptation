@@ -224,4 +224,9 @@ Successfully completed the RAG (Retrieval-Augmented Generation) engine integrati
 - **Safety Grounding**: Querying vague symptoms (e.g., general leaf yellowing) correctly yields a grounded refusal to guess without context.
 - **Accurate Retrieval**: Querying specific conditions (e.g., tomato wilt) successfully retrieves corresponding pages of `tomato.pdf` and extracts symptoms and treatments (Bacterial vs. Fusarium wilt) with no hallucinations.
 
-
+## 📝 Part 5: B.Tech Major Project Report Drafting (May 23, 2026)
+- **Activity**: Created the comprehensive report draft `report_content.txt` at the workspace root.
+- **Details**:
+  - The document is structured strictly according to the format specified in `B. Tech. Major Project Report Format.docx`.
+  - It compiles complete texts, tables, mathematical formulations (e.g., Depthwise Separable Convolutions, metrics, and Grad-CAM), database schemas, DFD diagrams, and IEEE references matching the actual AgriVision 2.0 implementation.
+  - The entire report content was written using the passive voice / third-person style to maintain academic and professional objectivity as mandated.

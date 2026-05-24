@@ -51,6 +51,13 @@ async def predict_disease(file: UploadFile = File(...)):
         # Get prediction
         result = model.predict(image)
         
+        # Generate Grad-CAM heatmap
+        try:
+            result["gradcam_image"] = model.generate_gradcam(image)
+        except Exception as e:
+            print(f"Warning: Failed to generate Grad-CAM: {str(e)}")
+            result["gradcam_image"] = None
+        
         # Get treatment recommendations
         recommendations = get_treatment_recommendations(
             result["plant_name"],

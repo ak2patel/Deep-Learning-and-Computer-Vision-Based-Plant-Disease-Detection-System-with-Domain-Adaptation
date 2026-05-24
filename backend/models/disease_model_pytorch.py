@@ -8,6 +8,9 @@ from PIL import Image
 import numpy as np
 from typing import Dict
 import os
+import io
+import base64
+import matplotlib.cm as cm
 
 class AgriBlock(nn.Module):
     """Inverted Residual Block with Depthwise Separable Convolution"""
@@ -196,3 +199,74 @@ class DiseaseModel:
             "is_healthy": is_healthy,
             "top_5_predictions": top_5_predictions
         }
+
+    def generate_gradcam(self, image: Image.Image) -> str:
+        """
+        Generate Grad-CAM heatmap, overlay it on the original image, 
+        and return as a base64 encoded string.
+        """
+        self.model.eval()
+        img_tensor = self.transform(image).unsqueeze(0).to(self.device)
+        
+        activations = None
+        gradients = None
+        
+        def forward_hook(module, input, output):
+            nonlocal activations
+            activations = output
+            
+        def backward_hook(module, grad_input, grad_output):
+            nonlocal gradients
+            gradients = grad_output[0]
+            
+        # Hook the last depthwise conv layer in the last AgriBlock
+        target_layer = self.model.blocks[-1].conv[3]
+        f_hook = target_layer.register_forward_hook(forward_hook)
+        b_hook = target_layer.register_full_backward_hook(backward_hook)
+        
+        # Forward pass
+        outputs = self.model(img_tensor)
+        predicted_idx = outputs.argmax(dim=1).item()
+        
+        # Backward pass
+        self.model.zero_grad()
+        target = outputs[0, predicted_idx]
+        target.backward()
+        
+        # Remove hooks
+        f_hook.remove()
+        b_hook.remove()
+        
+        # Compute Grad-CAM
+        pooled_gradients = torch.mean(gradients, dim=[0, 2, 3])
+        for i in range(activations.size(1)):
+            activations[:, i, :, :] *= pooled_gradients[i]
+            
+        heatmap = torch.mean(activations, dim=1).squeeze()
+        heatmap = nn.functional.relu(heatmap)
+        heatmap /= torch.max(heatmap) + 1e-8
+        
+        heatmap = heatmap.cpu().detach().numpy()
+        
+        # Resize heatmap to match original image
+        heatmap_img = Image.fromarray((heatmap * 255).astype(np.uint8)).resize(image.size, Image.BILINEAR)
+        heatmap_np = np.array(heatmap_img) / 255.0
+        
+        # Apply colormap
+        cmap = cm.get_cmap('jet')
+        heatmap_colored = cmap(heatmap_np)[:, :, :3] # RGB
+        heatmap_colored = (heatmap_colored * 255).astype(np.uint8)
+        
+        # Overlay on original image
+        original_np = np.array(image.convert("RGB"))
+        alpha = 0.5
+        overlay = (heatmap_colored * alpha + original_np * (1 - alpha)).astype(np.uint8)
+        
+        overlay_img = Image.fromarray(overlay)
+        
+        # Encode to base64
+        buffered = io.BytesIO()
+        overlay_img.save(buffered, format="JPEG")
+        img_str = base64.b64encode(buffered.getvalue()).decode('utf-8')
+        
+        return f"data:image/jpeg;base64,{img_str}"
